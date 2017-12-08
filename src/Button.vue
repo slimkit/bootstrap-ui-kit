@@ -6,7 +6,7 @@
         {{ procesLable }}
       </template>
       <template v-else>
-        <slot>{{ lable }}</slot>
+        {{ lable }}
       </template>
     </template>
   </ui-process-button>
