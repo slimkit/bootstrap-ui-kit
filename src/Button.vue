@@ -13,8 +13,14 @@
 </template>
 
 <script>
+import ProcessClickButton from './ProcessClickButton';
+import Loading from './Loading';
 export default {
   name:'ui-button',
+  components: {
+    [ProcessClickButton.name]: ProcessClickButton,
+    [Loading.name]: Loading,
+  },
   props: {
     lable: { type: String, default: '提交' },
     procesLable: { type: String, default: '提交中...' },
