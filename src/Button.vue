@@ -3,10 +3,10 @@
     <template slot-scope="{ processing }">
       <template v-if="processing">
         <ui-loading></ui-loading>
-        {{ procesLable }}
+        {{ proceslabel }}
       </template>
       <template v-else>
-        {{ lable }}
+        {{ label }}
       </template>
     </template>
   </ui-process-button>
@@ -22,8 +22,8 @@ export default {
     [Loading.name]: Loading,
   },
   props: {
-    lable: { type: String, default: '提交' },
-    procesLable: { type: String, default: '提交中...' },
+    label: { type: String, default: '提交' },
+    proceslabel: { type: String, default: '提交中...' },
   },
   methods: {
     handleClick (event) {
