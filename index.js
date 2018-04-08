@@ -4,8 +4,8 @@ import OffsetPaginator from './src/OffsetPaginator';
 import ProcessClickButton from './src/ProcessClickButton';
 
 export default {install (Vue) {
-  Vue.component('bootstrap-ui-kit:'+Button.name, Button);
-  Vue.component('bootstrap-ui-kit:'+Loading.name, Loading);
-  Vue.component('bootstrap-ui-kit:'+OffsetPaginator.name, OffsetPaginator);
-  Vue.component('bootstrap-ui-kit:'+ProcessClickButton.name, ProcessClickButton);
+  Vue.component('b-'+Button.name, Button);
+  Vue.component('b-'+Loading.name, Loading);
+  Vue.component('b-'+OffsetPaginator.name, OffsetPaginator);
+  Vue.component('b-'+ProcessClickButton.name, ProcessClickButton);
 }};
