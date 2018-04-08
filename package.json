@@ -1,6 +1,6 @@
 {
   "name": "simkit-bootstrap-ui-kit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "UI component library based on bootstrap package.",
   "main": "index.js",
   "repository": "https://github.com/slimkit/bootstrap-ui-kit.git",
